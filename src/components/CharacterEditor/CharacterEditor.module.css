@@ -4,6 +4,8 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+  z-index: 5;
 }
 
 .header {
@@ -27,7 +29,9 @@
   position: fixed;
   top: 15%;
   left: 60%;
+  bottom: 5%;
   min-height: 500px;
+  z-index: 5;
 }
 
 .controlColumn {
@@ -40,4 +44,5 @@
   height: 40%;
   width: 100%;
   background-color: hsl(195deg, 20%, 86%);
+  z-index: 3;
 }
